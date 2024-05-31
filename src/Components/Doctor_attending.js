@@ -1,9 +1,12 @@
 import './Forms.css'
 import SubmitButton from './SubmitButton';
+import Header from './Header';
+import Footer from './Footer';
 
-function Doctor_attending(){
+const Doctor_attending=()=>{
     return(
         <>
+        <Header></Header>
         <form className="add">
             <label htmlForfor="add_Doctor">Doctor ID</label>
             <input type="text" name="add_doctor" id="add_doctor"></input>
@@ -27,8 +30,9 @@ function Doctor_attending(){
             <input type="text" name="specialization" id="specialization"></input>
 
             <SubmitButton text="Submit" className="form-button"></SubmitButton>
-
         </form>
+
+        <Footer></Footer>
         </>
     )
 }

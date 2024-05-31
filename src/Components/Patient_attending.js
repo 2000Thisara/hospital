@@ -1,9 +1,12 @@
 import './Forms.css'
 import SubmitButton from './SubmitButton';
+import Header from './Header';
+import Footer from './Footer';
 
-function Patient_attending(){
+const Patient_attending=()=>{
     return(
         <>
+        <Header></Header>
         <form className="add">
             <label htmlForfor="add_patient">Patient ID</label>
             <input type="text" name="add_patient" id="add_patient"></input>
@@ -28,6 +31,9 @@ function Patient_attending(){
 
             <label htmlForfor="contact_info">Contact N0.</label>
             <input type="text" name="contact_info" id="contact_info"></input>
+            
+            <label htmlForfor="adt">Attending Date</label>
+            <input type="date" name="adt" id="adt"></input>
 
             <label htmlForfor="details">Description</label>
             <textarea name="details" id="details"></textarea>
@@ -35,6 +41,8 @@ function Patient_attending(){
             <SubmitButton text="Submit" className="form-button"></SubmitButton>
 
         </form>
+
+        <Footer></Footer>
         </>
     )
 }

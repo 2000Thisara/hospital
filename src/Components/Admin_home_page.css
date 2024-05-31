@@ -1,0 +1,43 @@
+.home-page {
+    position: relative;
+    height: 100vh;
+    background-image: url(https://www.oshacademy.com/courses/training/630-healthcare-pharmacy-safety/images/630_1_8_responsibility_thinkstock.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .main-nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 200px;
+  }
+  
+  .main-nav-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
