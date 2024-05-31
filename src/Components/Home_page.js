@@ -8,8 +8,8 @@ const Home_page = () => {
       <div className="content">
         <h1>Welcome to Our Hospital</h1>
         <div className="button-container">
-          <MainNavButton label="ADMIN" href="/" />
-          <MainNavButton label="INFORMATION" href="/about" />
+          <MainNavButton label="ADMIN" to="/admin" />
+          <MainNavButton label="INFORMATION" to="/about" />
         </div>
       </div>
     </div>
