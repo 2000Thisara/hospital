@@ -1,9 +1,12 @@
 import MainNavButton from "./MainNavButton";
 import "./Admin_home_page.css";
-import Doctor_attending from "./Doctor_attending";
+import Footer from "./Footer";
+import Header from './Header';
 
 const Admin_home_page = () => {
   return (
+    <>
+    <Header></Header>
     <div className="home-page">
       <div className="background-image"></div>
       <div className="content">
@@ -15,6 +18,8 @@ const Admin_home_page = () => {
         </div>
       </div>
     </div>
+    <Footer></Footer>
+    </>
   );
 };
 

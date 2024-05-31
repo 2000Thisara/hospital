@@ -21,7 +21,7 @@ const Header = () => {
         <FaBars className="header__icon" onClick={toggleDropdown} />
         {dropdownOpen && (
           <div className="dropdown">
-            <a href="#home">Home</a>
+            <a href="#Home">Home</a>
             <a href="#about">About Us</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>

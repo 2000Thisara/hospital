@@ -1,8 +1,12 @@
 import MainNavButton from './MainNavButton';
 import './Home_page.css'; 
+import Footer from './Footer';
+import Header from './Header'
 
 const Home_page = () => {
   return (
+    <>
+    <Header></Header>
     <div className="home-page">
       <div className="background-image"></div>
       <div className="content">
@@ -13,6 +17,9 @@ const Home_page = () => {
         </div>
       </div>
     </div>
+
+    <Footer></Footer>
+    </>
   );
 };
 

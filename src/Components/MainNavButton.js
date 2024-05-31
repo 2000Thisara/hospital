@@ -1,6 +1,7 @@
 // src/components/MainNavButton.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './MainNavButton.css';
 
 const MainNavButton = ({ label, to, onClick }) => {
   const navigate = useNavigate();
